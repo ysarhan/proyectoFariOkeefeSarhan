@@ -3,10 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
     <title>Login</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+   <header class="header">
+        <nav>
+            <ul>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./register.html">Register</a></li>
+            </ul>
+        </nav>
+        <img src="./img/logo.png" alt="logo" class="logo">
+        <form action="./busqueda.html" method="get">
+            <div>
+                <label for="busqueda">Busqueda: </label>
+                <input id="busqueda" type="search" name="search" value="">
+            </div>
+        </form>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li>Categorias
+                <ul>
+                    <li><a href="./categoria.html">Pinturas</a></li>
+                    <li><a href="./categoria.html">Herramientas</a></li>
+                    <li><a href="./categoria.html">Cuadros</a></li>
+                    <li><a href="./categoria.html">Dibujo</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
     <form action="./index.html" method="get">
         <div>
             <label for="email">Email: </label>
@@ -21,5 +50,11 @@
             <a href="./register.html">No tengo cuenta</a>
         </div>
     </form>
+
+    <footer>
+        <h3>Yamile Sarhan</h3>
+        <h3>Abril Farinaccia</h3>
+        <h3>Lucas O'keefe</h3>
+    </footer>
 </body>
 </html>
