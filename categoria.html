@@ -7,19 +7,52 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <section>
-            <a href="./login.html" target="_blank">Login</a>
-            <a href="./register.html">Register</a>
-        </section>
-        <img src="./img/logo.png" alt="Logo">
+    <header class="header">
         <nav>
             <ul>
-                <li> <a href="./index.html">Home</a></li>
-                <li> <a href="./busqueda.html">Buscador</a></li>
-                <li> <a href="./categoria.html">Categorias</a></li>
+                <li><a href="./login.html">Login</a></li>
+                <li><a href="./register.html">Register</a></li>
             </ul>
         </nav>
+        <form action="./busqueda.html" method="get">
+            <div>
+                <label for="busqueda">Busqueda: </label>
+                <input id="busqueda"  type="search" name="search" value="">
+            </div>
+        </form>
+        <img src="./img/logo.png" alt="logo">
     </header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li>Categorias
+                <ul>
+                    <li><a href="./categoria.html">Pinturas</a></li>
+                    <li><a href="./categoria.html">Herramientas</a></li>
+                    <li><a href="./categoria.html">Cuadros</a></li>
+                    <li><a href="./categoria.html">Dibujo</a></li>
+                </ul>
+                
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Categorias | Pinturas</h2>
+        <img src="./img/acrilico.jpeg" alt="acuarela">
+        <p><a href="./product.html">Ver detalle</a></p>
+        <img src="./img/acuarela.jpeg" alt="acuarela">
+        <p><a href="./product.html">Ver detalle</a></p>
+        <img src="./img/aerosol.jpeg" alt="aerosol">
+        <p><a href="./product.html">Ver detalle</a></p>
+        <img src="./img/pinturatela.jpeg" alt="pinturatela">
+        <p><a href="./product.html">Ver detalle</a></p>
+        <img src="./img/tinta.jpeg" alt="tinta">
+        <p><a href="./product.html">Ver detalle</a></p>
+    </section>
+    <footer>
+        <h3>Yamile Sarhan</h3>
+        <h3>Abril Farinaccia</h3>
+        <h3>Lucas O'keefe</h3>
+    </footer>
 </body>
 </html>
