@@ -1,46 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
-   <header class="header">
+    <header class="header">
         <nav>
             <ul>
                 <li><a href="./login.html">Login</a></li>
                 <li><a href="./register.html">Register</a></li>
+                <li><a href="./index.html">Home</a></li>
             </ul>
         </nav>
-        <img src="./img/logo.png" alt="logo" class="logo">
         <form action="./busqueda.html" method="get">
             <div>
                 <label for="busqueda">Busqueda: </label>
                 <input id="busqueda" type="search" name="search" value="">
             </div>
         </form>
+        <a href="./index.html"> <img src="./img/logo.png" alt="logo" class="logo" ></a>
     </header>
-    <form action="./index.html" method="get">
-        <div>
-            <label for="email">Email: </label>
-            <input id="email" type="email" name="email" value="">
-        </div>
-        <div>
-            <label for="password">Password: </label>
-            <input id="password" type="password" name="password" value="">
-        </div>
-        <div>
-            <button type="submit">Ingresar</button>
-            <a href="./register.html">No tengo cuenta</a>
-        </div>
-    </form>
-
+    <main class="login">
+        <form action="./index.html" method="get" class="form">
+            <h2 class="bienvenido">¡BIENVENIDO/A!</h2>
+            <div class="email">
+                <label for="email">Email: </label>
+                <input id="email" type="email" name="email" value="">
+            </div>
+            <div class="passw">
+                <label for="password">Password: </label>
+                <input id="password" type="password" name="password" value="">
+            </div>
+            <div class="button">
+                <button type="submit">Ingresar</button>
+            </div>
+            <a href="./register.html" class="notengocuenta">No tengo cuenta</a>
+        </form>
+    </main>
     <footer>
         <h3>Yamile Sarhan</h3>
         <h3>Abril Farinaccia</h3>
         <h3>Lucas O'keefe</h3>
     </footer>
 </body>
+
 </html>

@@ -1,5 +1,126 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
+
+/* background */
+body {
+    background-image: url("../img/background.jpeg");
+}
+
+/* header */
+header {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+/* footer */
+footer {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* home*/
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.vendidos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.imagen {
+    display: block;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 60px;
+    margin-top: 10px;
+}
+
+.nuestrosprod {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+/* login */
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+}
+
+.form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 400px;
+}
+
+.bienvenido {
+    margin-bottom: 20px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.email {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.passw {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+
+.button {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.notengocuenta{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    color: black;
+    text-decoration: underline;
+}
+
+/* register */
+/* product */
+/* categoria */
+/* busqueda */
