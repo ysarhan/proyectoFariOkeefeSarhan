@@ -34,16 +34,35 @@ header {
 }
 
 /* side bar */ 
-.sidebar {
+.navside {
     background-color: white;
-    height: 300px;
-    width: 95px;
+    margin-left: 40px;
+}
+.sidebar {
+    
+    height: 545px;
+    width: 120px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-self: center;
-    margin-left: 40px;
+    margin-left: 20px;
 }
+
+.imagen {
+    display: block;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 60px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 
 /* footer */
 footer {
@@ -57,8 +76,8 @@ footer {
 
 /* home*/
 img {
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
 }
 
 .vendidos {
@@ -67,12 +86,12 @@ img {
     flex-direction: row;
 }
 
-.imagen {
-    display: block;
-    height: 250px;
-    width: 250px;
-    margin-bottom: 60px;
-    margin-top: 10px;
+.imagen_index{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .nuestrosprod {
@@ -151,7 +170,14 @@ h2 {
 .categoria_pintura {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    margin-left: 30px;
+    
+}
+.imagenes_categoria {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
 }
 
 /* busqueda */
@@ -159,5 +185,20 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+main{
+    display: flex;
+}
+.seccion1_busqueda {
+    margin-left: 100px;
+}
+
+.imagen_bus {
+    display: block;
+    height: 250px;
+    width: 250px;
+    margin-bottom: 60px;
+    margin-top: 10px;
+    margin-right: 40px;
 }
 

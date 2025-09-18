@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Busqueda - Aires del Sur</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
@@ -22,35 +25,41 @@
         </form>
         <a class="logo" href="./index.html"> <img src="./img/logo.png" alt="logo" class="logo" ></a>
     </header>
-    <section>
-        <nav>
-            <ul class="sidebar">
-            <li><a href="./index.html">Home</a></li>
-            <li>Categorias
-                <ul>
-                    <li><a href="./categoria.html">Pinturas</a></li>
-                    <li><a href="./categoria.html">Herramientas</a></li>
-                    <li><a href="./categoria.html">Cuadros</a></li>
-                    <li><a href="./categoria.html">Dibujo</a></li>
+    <main>
+        <section>
+            <nav class="navside">
+                <ul class="sidebar">
+                <li><a href="./index.html">Home</a></li>
+                <li>Categorias
+                    <ul>
+                        <li><a href="./categoria.html">Pinturas</a></li>
+                        <li><a href="./categoria.html">Herramientas</a></li>
+                        <li><a href="./categoria.html">Cuadros</a></li>
+                        <li><a href="./categoria.html">Dibujo</a></li>
+                    </ul>
+                </li>
                 </ul>
-            </li>
-            </ul>
-        </nav>
-    </section>
-    <section>
-        <article>
-            <h2>Resultado de busqueda: </h2>
-        <h3>Pintura al óleo</h3>
-        <img src="./img/oleos AS.png" alt="pintura al oleo">
-        <a href="./product.html">Ver detalle</a>
-    </article>
-        <article class="imagenes_busqueda">
-            <img class="imagen" src="./img/aerosol AS.png" alt="aerosol">
-            <img class="imagen" src="./img/acuarelas AS.png" alt="acuarelas">
-            <img class="imagen" src="./img/acrilicos AS.png" alt="acrilicos">
-            <img class="imagen" src="./img/espatulas AS.png" alt="espatulas">
-        </article>
-    </section>
+            </nav>
+        </section>
+        <section class="seccion1_busqueda">
+            <article >
+                <h2>Resultado de busqueda: </h2>
+                <h2>Pintura al óleo</h2>
+                <div class="imagen">
+                    <img src="./img/oleos AS.png" alt="pintura al oleo">
+                    <h3><a href="./product.html">Ver detalle</a></h3>
+                </div>
+                
+            </article>
+            <h2>Productos relacionados</h2>
+            <article class="imagenes_busqueda">
+                <img class="imagen" src="./img/aerosol AS.png" alt="aerosol">
+                <img class="imagen" src="./img/acuarelas AS.png" alt="acuarelas">
+                <img class="imagen" src="./img/acrilicos AS.png" alt="acrilicos">
+                <img class="imagen" src="./img/espatulas AS.png" alt="espatulas">
+            </article>
+        </section>
+    </main>
     <footer>
         <h3>Yamile Sarhan</h3>
         <h3>Abril Farinaccia</h3>
