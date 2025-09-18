@@ -4,6 +4,10 @@
     padding: 0px;
 }
 
+ul {
+    list-style: none;
+} 
+
 /* background */
 body {
     background-image: url("../img/background.jpeg");
@@ -14,12 +18,31 @@ header {
     background-color: white;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
+    margin-top: 40px;
 }
-
+.header_nav {
+    margin: 20px;
+}
+.barra_busqueda {
+    margin: 30px 0px;
+}
 .logo {
     height: 100px;
     width: 100px;
+    margin-right: 20px;
+}
+
+/* side bar */ 
+.sidebar {
+    background-color: white;
+    height: 300px;
+    width: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin-left: 40px;
 }
 
 /* footer */
@@ -121,6 +144,20 @@ h2 {
 }
 
 /* register */
+
 /* product */
+
 /* categoria */
+.categoria_pintura {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
 /* busqueda */
+.imagenes_busqueda {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+

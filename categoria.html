@@ -8,22 +8,22 @@
 </head>
 <body>
     <header class="header">
-        <nav>
+        <nav class="header_nav">
             <ul>
                 <li><a href="./login.html">Login</a></li>
                 <li><a href="./register.html">Register</a></li>
             </ul>
         </nav>
-        <form action="./busqueda.html" method="get">
+        <form class="barra_busqueda" action="./busqueda.html" method="get">
             <div>
                 <label for="busqueda">Busqueda: </label>
                 <input id="busqueda"  type="search" name="search" value="">
             </div>
         </form>
-       <a href="./index.html"> <img src="./img/logo.png" alt="logo" class="logo" ></a>
+        <a class="logo" href="./index.html"> <img src="./img/logo.png" alt="logo" class="logo" ></a>
     </header>
     <nav>
-        <ul>
+        <ul class="sidebar">
             <li><a href="./index.html">Home</a></li>
             <li>Categorias
                 <ul>
@@ -36,18 +36,28 @@
             </li>
         </ul>
     </nav>
-    <section>
-        <h2>Categorias | Pinturas</h2>
-        <img src="./img/acrilicos AS.png" alt="acrilicos">
+    <h2>Categorias | Pinturas</h2>
+    <section class="categoria_pintura">
+        <article class="imagen">
+             <img src="./img/acrilicos AS.png" alt="acrilicos">
         <p><a href="./product.html">Ver detalle</a></p>
-        <img src="./img/acuarelas AS.png" alt="acuarelas">
+        </article>
+       <article class="imagen">
+            <img src="./img/acuarelas AS.png" alt="acuarelas">
+            <p><a href="./product.html">Ver detalle</a></p>
+       </article>
+       <article class="imagen">
+            <img src="./img/aerosol AS.png" alt="aerosol">
+            <p><a href="./product.html">Ver detalle</a></p>
+       </article>
+        <article class="imagen">
+            <img src="./img/pintura tela AS.png" alt="pintura">
         <p><a href="./product.html">Ver detalle</a></p>
-        <img src="./img/aerosol AS.png" alt="aerosol">
+        </article>
+        <article class="imagen">
+            <img src="./img/tinta AS.png" alt="">
         <p><a href="./product.html">Ver detalle</a></p>
-        <img src="./img/pintura tela AS.png" alt="pintura">
-        <p><a href="./product.html">Ver detalle</a></p>
-        <img src="./img/tinta AS.png" alt="">
-        <p><a href="./product.html">Ver detalle</a></p>
+        </article> 
     </section>
     <footer>
         <h3>Yamile Sarhan</h3>
