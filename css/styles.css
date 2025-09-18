@@ -24,6 +24,11 @@ header {
 .header_nav {
     margin: 20px;
 }
+.login_register{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
 .barra_busqueda {
     margin: 30px 0px;
 }
@@ -76,8 +81,8 @@ footer {
 
 /* home*/
 img {
-    height: 150px;
-    width: 150px;
+    height: 125px;
+    width: 125px;
 }
 
 .vendidos {
@@ -93,15 +98,42 @@ img {
     align-items: center;
     flex-direction: column;
 }
+/* descripciones de las imagenes */
+.precio{
+ font-size: 16px;
+ color: #88330f;
+ font-weight: bold;
+ margin-bottom: 10px;
+
+}
+.texto{
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: center;
+}
+.producto{
+    font-size: 20px;
+    
+}
+/* boton de ver detalle */
+.ver_detalle{
+    text-decoration: none;
+    background-color: #EADBC8;
+    color: #231f1f;
+    padding: 5px; 
+    border: 1px rgba(49, 41, 41, 0.96) solid;          
+    font-size: 14px;
+}
 
 .nuestrosprod {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
-
+/* titulos de secciones */
 h2 {
     font-size: 50px;
+    color: #2d2727;
 }
 
 /* login */
@@ -151,6 +183,14 @@ h2 {
     flex-direction: column;
     align-items: center;
     margin-top: 20px;
+    text-decoration: none;
+}
+.button button{
+    text-decoration: none;
+    color: black;
+    background-color: beige;
+    padding: 10px 20px;            
+    border-radius: 8px;
 }
 .notengocuenta{
     display: flex;
