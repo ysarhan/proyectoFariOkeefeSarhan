@@ -3,70 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Product</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header class="header">
-        <nav>
+        <nav class="header_nav">
             <ul>
                 <li><a href="./login.html">Login</a></li>
                 <li><a href="./register.html">Register</a></li>
             </ul>
         </nav>
-        <form action="./busqueda.html" method="get">
+        <form class="barra_busqueda" action="./busqueda.html" method="get">
             <div>
                 <label for="busqueda">Busqueda: </label>
                 <input id="busqueda"  type="search" name="search" value="">
             </div>
         </form>
-        <a href="./index.html"> <img src="./img/logo.png" alt="logo" class="logo" ></a>
+        <a class="logo" href="./index.html"> <img src="./img/logo.png" alt="logo" class="logo" ></a>
     </header>
-    <nav>
-        <ul>
-            <li><a href="./index.html">Home</a></li>
-            <li>Categorias
-                <ul>
-                    <li><a href="./categoria.html">Pinturas</a></li>
-                    <li><a href="./categoria.html">Herramientas</a></li>
-                    <li><a href="./categoria.html">Cuadros</a></li>
-                    <li><a href="./categoria.html">Dibujo</a></li>
+    <main>
+        <aside>
+            <nav class="navside">
+                <ul class="sidebar">
+                    <li><a href="./index.html">Home</a></li>
+                    <li>Categorias
+                        <ul>
+                            <li><a href="./categoria.html">Pinturas</a></li>
+                            <li><a href="./categoria.html">Herramientas</a></li>
+                            <li><a href="./categoria.html">Cuadros</a></li>
+                            <li><a href="./categoria.html">Dibujo</a></li>
+                        </ul>
+                        
+                    </li>
                 </ul>
-                
-            </li>
-        </ul>
-    </nav>
-<section>
-    <h1>Marcadores</h1>
-    <h2>Marca: marca</h2>
-        <p>Marcadores de alta calidad Lorem ipsum dolor sit amet consectetur adipisicing 
-        elit. Ratione molestias ducimus aliquid mollitia numquam non vitae consequuntur voluptates consectetur quasi.</p>
-    <img src="./img/marcadores AS.png" alt="marcadores">
-    <h3>50.000ARS</h3>
-        <p>Categoria: Dibujo</p>
-        <p>15 unidades disponibles</p>
-    <ul>
-        <li>Pintura</li>
-        <li>Dibujo</li>
-        <li>Utiles</li>
-    </ul>
-</section>
-<section>
-    <h3>Reviews</h3>
-<div>
-    <b>4.5/5</b>
-    <p>Muy buen producto, lo uso muy seguido y hasta ahora nunca decepciona</p>
-    <p>25/06/2024</p>
-    <p>MaxiMAGA</p>
-</div>
-<div>
-    <b>1.0/5</b>
-    <p>Pense que iban a ser mas ricos</p>
-    <p>12/04/2025</p>
-    <p>Benja Torres</p>
-</div>
-</section>
-
+            </nav>
+        </aside>
+        <div class="producto">
+            <section class="section1_producto">
+                <h1>Marcadores</h1>
+                <h2>Marca: marca</h2>
+                    <p>Marcadores de alta calidad Lorem ipsum dolor sit amet consectetur adipisicing 
+                    elit. Ratione molestias ducimus aliquid mollitia numquam non vitae consequuntur voluptates consectetur quasi.</p>
+                <img src="./img/marcadores AS.png" alt="marcadores">
+                <h3>50.000ARS</h3>
+                    <p>Categoria: Dibujo</p>
+                    <p>15 unidades disponibles</p>
+                <ul>
+                    <li>Pintura</li>
+                    <li>Dibujo</li>
+                    <li>Utiles</li>
+                </ul>
+            </section>
+        
+            <section>
+                <h3>Reviews</h3>
+                <div>
+                    <b>4.5/5</b>
+                    <p>Muy buen producto, lo uso muy seguido y hasta ahora nunca decepciona</p>
+                    <p>25/06/2024</p>
+                    <p>MaxiMAGA</p>
+                </div>
+                <div>
+                    <b>1.0/5</b>
+                    <p>Pense que iban a ser mas ricos</p>
+                    <p>12/04/2025</p>
+                    <p>Benja Torres</p>
+                </div>
+            </section>
+        </div>
+    </main>
 
 <footer>
     <h3>Yamile Sarhan</h3>

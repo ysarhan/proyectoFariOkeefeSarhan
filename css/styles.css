@@ -11,6 +11,12 @@ ul {
 /* background */
 body {
     background-image: url("../img/background.jpeg");
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
 }
 
 /* header */
@@ -56,7 +62,7 @@ header {
 
 .imagen {
     display: block;
-    height: 250px;
+    height: 300px;
     width: 250px;
     margin-bottom: 60px;
     margin-top: 10px;
@@ -85,6 +91,17 @@ img {
     width: 125px;
 }
 
+.img2 {
+    height: 200px;
+    width: 200px;
+}
+
+.img3 {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+
 .vendidos {
     display: flex;
     flex-wrap: wrap;
@@ -97,6 +114,15 @@ img {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.nuestrosprod {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 30px;
+}
+.nuestros_productos_titulo {
+    margin-left: 30px;
 }
 /* descripciones de las imagenes */
 .precio{
@@ -125,11 +151,7 @@ img {
     font-size: 14px;
 }
 
-.nuestrosprod {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
+
 /* titulos de secciones */
 h2 {
     font-size: 50px;
@@ -205,6 +227,15 @@ h2 {
 /* register */
 
 /* product */
+.producto {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+
+.section1_producto {
+    width: 70%;
+}
 
 /* categoria */
 .categoria_pintura {
@@ -233,12 +264,6 @@ main{
     margin-left: 100px;
 }
 
-.imagen_bus {
-    display: block;
-    height: 250px;
-    width: 250px;
-    margin-bottom: 60px;
-    margin-top: 10px;
-    margin-right: 40px;
-}
+
+
 
