@@ -10,7 +10,8 @@ ul {
 
 /* background */
 body {
-    background-image: url("../img/background.jpeg");
+    background-image: url("../img/diseño3.png");
+    background-size: cover;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     font-weight: weight;
@@ -25,6 +26,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    flex-direction: row-reverse;
     margin-top: 40px;
 }
 .header_nav {
@@ -46,7 +48,7 @@ header {
 
 /* side bar */ 
 .navside {
-    background-color: white;
+    background-color: #AC9484;
     margin-left: 40px;
 }
 .sidebar {
@@ -67,17 +69,19 @@ header {
     margin-bottom: 60px;
     margin-top: 10px;
     margin-right: 10px;
+    border-radius: 10px;
     background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border: 0.5px black solid;
 }
 
 
 /* footer */
 footer {
-    background-color: white;
+    background-color:#685041;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -127,7 +131,7 @@ img {
 /* descripciones de las imagenes */
 .precio{
  font-size: 16px;
- color: #88330f;
+ color:#5B4336;
  font-weight: bold;
  margin-bottom: 10px;
 
@@ -144,11 +148,13 @@ img {
 /* boton de ver detalle */
 .ver_detalle{
     text-decoration: none;
-    background-color: #EADBC8;
-    color: #231f1f;
-    padding: 5px; 
-    border: 1px rgba(49, 41, 41, 0.96) solid;          
+    background-color:#AC9484;
+    color: #201717;
+    font-weight: weight;
+    padding: 5px;           
     font-size: 14px;
+    border-radius: 8px;
+    border:1px black solid;
 }
 
 
