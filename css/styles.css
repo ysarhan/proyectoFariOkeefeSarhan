@@ -10,6 +10,7 @@ ul {
 
 /* background */
 body {
+
     background-image: url("../img/diseño3.png");
     background-size: cover;
     font-family: "Roboto", sans-serif;
@@ -132,15 +133,23 @@ header {
 
 }
 
-
+.reg {
+    background-color: #685041;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 57vh;
+    
+}
 /* footer */
 footer {
     background-color: #685041;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     flex-direction: column;
     align-items: center;
+    
 }
 
 /* home*/
