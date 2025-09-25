@@ -22,42 +22,48 @@
         </form>
         <a class="logo" href="./index.html"> <img src="./img/logo.png" alt="logo" class="logo" ></a>
     </header>
-   
+   <main class="register_main">
+    <section class="register_section">
     <form action="./login.html">
-    <section>
-        <div>
+        <h2 class="registrate">Registrate</h2>
+        <div class="usuario">
             <label for="user">Usuario</label>
-            <input type="text" name="user" value="">
+            <input id="user" type="text" name="user" value="">
         </div>
-        <div>
+        <div class="usuario">
             <label for="mail">Email</label>
-            <input type="email" name="mail" value="">
+            <input id="mail" type="email" name="mail" value="">
         </div>
-        <div>
+        <div class="usuario">
             <label for="pass">Contraseña</label>
-            <input type="password" name="pass" value="">
+            <input id="pass" type="password" name="pass" value="">
         </div>
-            <div>
+            <div class="usuario">
             <label for="pass2">Repetir contraseña</label>
-            <input type="password" name="pass2" value="">
+            <input id="pass2" type="password" name="pass2" value="">
         </div>
-    <div>
+    <div class="terms">
         <label for="terms">Acepto los terminos y condiciones</label>
         <input type="checkbox" name="terms" value="yes">
     </div>
-    <div>
-    <button type="submit">Registrarme</button>
-    </div>
 
-    </section>
-    </form>
-    <form action="./login.html">
-    <button type="submit" name="login"> Ya tengo una cuenta</button>
+    <div class="button">
+        <button type="submit">Registrarme</button>
+    </div>
 </form>
-    <footer class="reg">
+
+<form action="./login.html">
+    <div class="no_register_div">
+        <button type="submit" name="login" class="no_register"> Ya tengo una cuenta</button>
+    </div>
+</form>
+</section>
+</main>
+
+<footer>
     <h3>Yamile Sarhan</h3>
     <h3>Abril Farinaccia</h3>
     <h3>Lucas O'keefe</h3>
-    </footer>
+</footer>
 </body>
 </html>

@@ -133,15 +133,8 @@ header {
 
 }
 
-.reg {
-    background-color: #685041;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 57vh;
     
-}
+
 /* footer */
 footer {
     background-color: #685041;
@@ -151,6 +144,7 @@ footer {
     align-items: center;
     
 }
+
 
 /* home*/
 img {
@@ -303,6 +297,56 @@ h2 {
 }
 
 /* register */
+.register_main {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 100vh;
+}
+.register_section {
+background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    width: 400px;
+}
+
+.registrate {
+    margin-bottom: 20px;
+    font-size: 35px;
+    text-align: center;
+}
+.usuario {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;  
+}
+
+.no_register_div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.no_register {
+    margin-top: 10px;
+    border-radius: 8px;
+    text-decoration: none;
+    width: 50%;
+    background-color: beige;
+    color: black;
+}
+.terms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
 
 /* product */
 .producto {
