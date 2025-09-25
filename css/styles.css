@@ -350,14 +350,121 @@ background-color: white;
 
 /* product */
 .producto {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 30px;
+   display: flex;
+   flex-direction: column;
+   margin: 30px;
 }
 
+
 .section1_producto {
-    width: 70%;
+   width: 70%;
+   display: flex;
+   flex-direction: row;
+   align-items:flex-start;
+
+
 }
+
+
+.marcadores_img {
+height: 500px;
+width: 500px;
+
+
+margin-right: 25px;
+}
+
+
+.texto_producto {
+
+
+}
+
+.product_h1 {
+font-size: 70px;
+}
+
+.product_h2 {
+   font-size: 30px;
+   margin-bottom: 15px;
+}
+
+.product_h3 {
+font-size:25px;
+margin-bottom: 20px;
+}
+
+.descripcion {
+   font-size: large;
+   margin-bottom: 20px;
+}
+
+.info_producto {
+width: 30%;
+}
+
+.categoria {
+   font-size: large;
+   margin-bottom: 15px;
+}
+
+.reviews{
+display: flex;
+flex-direction: row;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.unidades {
+   font-size: medium;
+   margin-bottom: 15px;
+}
+
+.tags {
+   font-size: large;
+   color: black;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: space-between;
+   margin-bottom: 30px;
+}
+
+.tag_items {
+   margin-bottom: 5px;
+}
+
+.review {
+margin-top: 5px;
+margin-bottom: 10px;
+}
+
+.rating {
+   font-weight: 700;
+}
+
+
+.review_texto {
+   font-size: 20px;
+}
+
+
+.datos_review {
+   display: flex;
+   flex-direction: row;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+.nombre_review {
+   font-size: 15px;
+   margin-right: 5px;
+}
+
+
+.fecha {
+   font-size: 15px;
+}
+
 
 /* categoria */
 .categoria_pintura {
