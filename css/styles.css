@@ -392,3 +392,59 @@ main {
 .seccion1_busqueda {
     margin-left: 100px;
 }
+
+/* diseño responsive */ 
+@media(max-width: 480px) {
+    main{
+        display: block;
+    }
+    
+    aside{
+        width: 100%;
+        margin-bottom: 15px;
+        display: block;
+    }
+
+    .nuestrosprod {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .vendidos {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .header {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .navside {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 200px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    footer{
+        width: 100vh;
+    }
+}
