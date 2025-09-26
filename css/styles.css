@@ -375,11 +375,6 @@ margin-right: 25px;
 }
 
 
-.texto_producto {
-
-
-}
-
 .product_h1 {
 font-size: 70px;
 }
@@ -498,6 +493,10 @@ main {
 
 .seccion1_busqueda {
     margin-left: 100px;
+}
+
+.no_hay_resultados {
+    display: none;
 }
 
 /* diseño responsive */ 
