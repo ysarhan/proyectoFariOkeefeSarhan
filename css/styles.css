@@ -15,10 +15,7 @@ body {
     background-size: cover;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-weight: weight;
     font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
 }
 
 /* header */
@@ -28,7 +25,7 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     flex-direction: row-reverse;
-    margin-top: 40px;
+    padding-bottom: 5px;
 }
 
 .header_nav {
@@ -47,6 +44,7 @@ header {
     text-decoration: none;
     color: black;
     font-size: 16px;
+    margin-left: 30px;
 }
 
 .barra_busqueda {
@@ -70,7 +68,7 @@ header {
 /* side bar */
 .navside {
     background-color: #AC9484;
-    margin-left: 40px;
+    padding-right: 10%;
 }
 
 .sidebar {
@@ -90,11 +88,12 @@ header {
     font-size: 16px;
     font-weight: 400;
     background-color: #2017172e;
-    padding: 5px 12px;
+    padding: 5px 30px;
     text-align: center;
     display: block;
     flex-direction: column;
     margin-left: 10px;
+    border-radius: 25px;
 }
 
 .cat {
@@ -107,6 +106,7 @@ header {
     font-size: 18px;
     margin-top: 20px;
     margin-left: 5px;
+    justify-self: center;
 
 }
 
@@ -115,11 +115,12 @@ header {
     display: flex;
     flex-direction: column;
     font-weight: bold;
-    background-color: #eae6dc84;
     color: #201717;
-    font-size: 18px;
+    font-size: 24px;
     margin-bottom: 10px;
+    margin-top: 10px;
     padding: 3px;
+    justify-self: center;
 }
 
 .imagen {
@@ -188,11 +189,6 @@ img {
     flex-direction: row;
     margin-left: 30px;
 }
-
-.nuestros_productos_titulo {
-    margin-left: 30px;
-}
-
 .monet {
     width: 100%;
     height: 150px;
@@ -360,46 +356,51 @@ h2 {
 /* product */
 .producto {
     display: flex;
-    flex-direction: column;
-    margin: 30px;
+    flex-direction: row;
+    margin-bottom: 8%;
+    margin-top: 8px;
+    width: 100%;
 }
 
 
 .section1_producto {
-    width: 70%;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+}
 
 
+
+
+.section2_producto{
+    display: flex;
+    flex-direction: column;
 }
 
 
 .marcadores_img {
-    height: 500px;
-    width: 500px;
-
-
+    width: 200px;
+    height: 200px;
     margin-right: 25px;
 }
 
 
 .product_h1 {
-    font-size: 70px;
+    font-size: 40px;
 }
 
 .product_h2 {
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 15px;
 }
 
 .product_h3 {
-    font-size: 25px;
+    font-size: 15px;
     margin-bottom: 20px;
 }
 
 .descripcion {
-    font-size: large;
+    font-size: normal;
     margin-bottom: 20px;
 }
 
@@ -414,7 +415,7 @@ h2 {
 
 .reviews {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -424,15 +425,7 @@ h2 {
     margin-bottom: 15px;
 }
 
-.tags {
-    font-size: large;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-between;
-    margin-bottom: 30px;
-}
+
 
 .tag_items {
     margin-bottom: 5px;
@@ -512,14 +505,12 @@ main {
 }
 
 /* diseño responsive */
-@media(max-width: 480px) {
+@media(max-width: 420px) {
     main {
         display: block;
-        width: 100vw;
     }
 
     aside {
-        width: 100%;
         margin-bottom: 15px;
         display: block;
     }
@@ -543,39 +534,33 @@ main {
 
 
     .header {
-        width: 100vw;
         display: flex;
-        flex-wrap: nowrap;
-    
-
+        flex-wrap: wrap;
     }
     .logo{
         display: flex;
         flex-wrap: wrap;
-        width: 100px;
-        height: 100px;
     }
+    
     .barra_busqueda{
         display: flex;
         flex-wrap: wrap;
-        width: 50%;
 
     }
     .header_nav{
         display: flex;
         flex-wrap: wrap;
-        width: 100px;
     }
 
     .navside {
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
-        height: 200px;
-        width: 100vw;
         margin: 0px;
         justify-content: center;
         align-items: center;
+        padding: 10px 0px 5px 0px;
+        height: 300px;
     }
 
 
@@ -583,7 +568,7 @@ main {
         display: flex;
         flex-wrap: nowrap;
         flex-direction: row;
-        width: 100vw;
+        justify-content: center;
     }
 
     ul {
@@ -591,7 +576,6 @@ main {
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: center;
-        max-width: 90vw;
     }
 
     a.categorias {
@@ -604,8 +588,8 @@ main {
         flex-direction: row;
         flex-wrap: wrap;
         height: 30px;
-        margin-top: 50px;
         justify-content: flex-start;
+        margin-bottom: 10%;
     }
 
     li {
@@ -622,10 +606,6 @@ main {
     .imagen {
         width: 60%;
         height: 400px;
-    }
-
-    footer {
-        width: 100vw;
     }
 
     .section1_producto {
@@ -658,7 +638,7 @@ main {
     }
 
     .review {
-        max-width: 90vw;
+        max-width: 90%;
     }
 
     ul.categoria_sidebar{
@@ -667,11 +647,16 @@ main {
         flex-direction: row;
         justify-content: space-around;
         text-align: center;
-        width: 100vw;
+        width: 100%;
+
     }
 
     .review_texto {
         max-width: 200px;
     }
 
+    .imagenes_busqueda{
+        display: flex;
+        flex-direction: column;
+    }
 }

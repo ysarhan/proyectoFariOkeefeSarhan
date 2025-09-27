@@ -1,108 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-   <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Product</title>
-   <link rel="stylesheet" href="./css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
-   <header class="header">
-       <nav class="header_nav">
-           <ul>
-               <li><a href="./login.html" class="login_register">Login //</a></li>
-               <li><a href="./register.html" class="login_register">Register //</a></li>
-           </ul>
-       </nav>
-       <form class="barra_busqueda" action="./busqueda.html" method="get">
-           <div>
-               <label for="busqueda">Busqueda: </label>
-               <input id="busqueda"  type="search" name="search" value="">
-           </div>
-       </form>
-       <a class="logo" href="./index.html"> <img src="./img/logo.png" alt="logo" class="logo" ></a>
-   </header>
-   <main>
-       <aside>
-           <nav class="navside">
-               <ul class="sidebar">
-                   <li><a href="./index.html" class="homeside">Home //</a></li>
-                   <li class="li_categoria">
-                       <h2 class="h2_cat">Categorias</h2>
-                       <ul class="categoria_sidebar">
-                           <li class="cat"><a href="./categoria.html" class="categorias_">Pinturas</a></li>
-                           <li class="cat"><a href="./categoria.html" class="categorias_">Herramientas</a></li>
-                           <li class="cat"><a href="./categoria.html" class="categorias_">Cuadros</a></li>
-                           <li class="cat"><a href="./categoria.html" class="categorias_">Dibujo</a></li>
-                       </ul>
-                   </li>
-               </ul>
-           </nav>
-       </aside>
-       <div class="producto">
-           <section class="section1_producto">
-                 
-               <div class="marcadores_div">
-                   <img src="./img/marcadores_as.png" alt="marcadores" class="marcadores_img">
-               </div>
-       <div class="texto_producto">
-               <h1 class="product_h1">Marcadores</h1>
-               <h2 class="product_h2">Marca: marca</h2>
+    <header class="header">
+        <nav class="header_nav">
+            <ul>
+                <li><a href="./login.html" class="login_register">Login </a></li>
+                <li><a href="./register.html" class="login_register">Register </a></li>
+            </ul>
+        </nav>
+        <form class="barra_busqueda" action="./busqueda.html" method="get">
+            <div>
+                <label for="busqueda">Busqueda: </label>
+                <input id="busqueda" type="search" name="search" value="">
+            </div>
+        </form>
+        <a class="logo" href="./index.html"> <img src="./img/logo.png" alt="logo" class="logo"></a>
+    </header>
+    <main>
+        <aside>
+            <nav class="navside">
+                <ul class="sidebar">
+                    <li><a href="./index.html" class="homeside">Home </a></li>
+                    <li class="li_categoria">
+                        <h2 class="h2_cat">Categorias</h2>
+                        <ul class="categoria_sidebar">
+                            <li class="cat"><a href="./categoria.html" class="categorias_">Pinturas</a></li>
+                            <li class="cat"><a href="./categoria.html" class="categorias_">Herramientas</a></li>
+                            <li class="cat"><a href="./categoria.html" class="categorias_">Cuadros</a></li>
+                            <li class="cat"><a href="./categoria.html" class="categorias_">Dibujo</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <div class="producto">
+            <section class="section1_producto">
+                <img src="./img/marcadores_as.png" alt="marcadores" class="marcadores_img">
+            </section>
+            <section class="section2_producto">
+                <div class="texto_producto">
+                    <h1 class="product_h1">Marcadores</h1>
+                    <h2 class="product_h2">Marca: marca</h2>
+                    <h3 class="product_h3">50.000ARS</h3>
+                    <p class="descripcion">Marcadores de alta calidad Lorem ipsum dolor sit amet consectetur.</p>
+                    <p class="categoria"> <strong>Categoria: </strong>Dibujo</p>
+
+                </div>
+
+                <div class="reviews">
+                    <div class="info_producto">
+                        <p class="unidades">15 unidades disponibles</p>
+                         <class="tags">
+                            <span class="tag_items">#Pintura</span>
+                            <span class="tag_items">#Dibujo</span>
+                            <span class="tag_items">#Utiles</span>
+                    </div>
 
 
-              <h3 class="product_h3">50.000ARS</h3>
+                    <h3>Reviews</h3>
+                    <div class="review">
+                        <h4 class="rating">4.5/5</h4>
+                        <p class="review_texto">Muy buen producto, lo uso muy seguido y hasta ahora nunca decepciona</p>
+                        <div class="datos_review">
+                            <p class="nombre_review">MaxiMAGA</p>
+                            <p class="nombre_review">-</p>
+                            <p class="fecha">25/06/2024</p>
+                        </div>
+                    </div>
+                    <div class="review">
+                        <h4 class="rating">1.0/5</h4>
+                        <p class="review_texto">Pense que iban a ser mas ricos</p>
+                        <div class="datos_review">
+                            <p class="nombre_review">Benja Torres</p>
+                            <p class="nombre_review">-</p>
+                            <p class="fecha">12/04/2025</p>
 
 
-                   <p class="descripcion">Marcadores de alta calidad Lorem ipsum dolor sit amet consectetur adipisicing
-                   elit. Ratione molestias ducimus aliquid mollitia numquam non vitae consequuntur voluptates consectetur quasi.</p>
+                        </div>
+                    </div>
+            </section>
+        </div>
+        </div>
+    </main>
 
 
-                   <p class="categoria"> <strong>Categoria: </strong>Dibujo</p>
-              
-       </div>
-           </section>
-   <div class="reviews">
-       <div class="info_producto">
-               <p class="unidades">15 unidades disponibles</p>
-               <ul class="tags">
-                   <li class="tag_items">Pintura</li>
-                   <li class="tag_items">Dibujo</li>
-                   <li class="tag_items">Utiles</li>
-               </ul>
-       </div>
-      
-           <section>
-               <h3>Reviews</h3>
-           <div class="review">
-                   <h4 class="rating">4.5/5</h4>
-                   <p class="review_texto">Muy buen producto, lo uso muy seguido y hasta ahora nunca decepciona</p>
-               <div class="datos_review">
-                   <p class="nombre_review">MaxiMAGA</p>
-                   <p class="nombre_review">-</p>
-                   <p class="fecha">25/06/2024</p>
-               </div>
-           </div>
-           <div class="review">
-                   <h4 class="rating">1.0/5</h4>
-                   <p class="review_texto">Pense que iban a ser mas ricos</p>
-               <div class="datos_review">
-                   <p class="nombre_review">Benja Torres</p>
-                   <p class="nombre_review">-</p>
-                   <p class="fecha">12/04/2025</p>
-
-
-               </div>
-           </div>
-           </section>
-           </div>
-       </div>
-   </main>
-
-
-<footer>
-   <h3>Yamile Sarhan</h3>
-   <h3>Abril Farinaccia</h3>
-   <h3>Lucas O'keefe</h3>
-</footer>
+    <footer>
+        <h3>Yamile Sarhan</h3>
+        <h3>Abril Farinaccia</h3>
+        <h3>Lucas O'keefe</h3>
+    </footer>
 </body>
+
 </html>
