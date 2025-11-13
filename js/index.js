@@ -21,7 +21,19 @@ fetch(url)
             `
         }
         info.innerHTML = productos
+    })
+    .catch(function (error) {
+        console.log("Error:" + error);
+    })
 
+let url_accesorios = "https://dummyjson.com/products/category/kitchen-accessories?limit=10"
+fetch(url_accesorios)
+    .then(function (res) {
+        return res.json();
+    })
+
+    .then(function (data) {
+        let results = data.products;
         let info2 = document.querySelector(".vendidos")
         let vendidos = ""
         for (let i = 0; i < results.length; i++) {
