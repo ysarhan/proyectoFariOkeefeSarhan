@@ -16,7 +16,7 @@ fetch(url)
                     <h3> ${results[i].title}</h3>
                     <p class="texto">${results[i].description}</p>
                     <p class="precio">${results[i].price} </p>
-                    <a href="./product.html" class="ver_detalle">Ver detalle</a>
+                    <a href="./product.html?id=${results[i].id}" class="ver_detalle">Ver detalle</a>
                 </article>
             `
         }
@@ -43,7 +43,8 @@ fetch(url_accesorios)
                     <h3> ${results[i].title}</h3>
                     <p class="texto">${results[i].description}</p>
                     <p class="precio">${results[i].price} </p>
-                    <a href="./product.html" class="ver_detalle">Ver detalle</a>
+                    <a href="./product.html?id=${results[i].id}" class="ver_detalle">Ver detalle</a>
+
                 </article>
             `
         }
@@ -52,3 +53,4 @@ fetch(url_accesorios)
     .catch(function (error) {
         console.log("Error:" + error);
     })
+
