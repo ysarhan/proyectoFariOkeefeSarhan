@@ -40,14 +40,14 @@ formulario.addEventListener("submit", function(event){
     } 
 })
 
-
+// codigo de busqueda de productos
 let parametros = new URLSearchParams(location.search);
 let termino = parametros.get("search");
 let titulo = document.querySelector(".titulo_busqueda");
 let contenedor = document.querySelector(".contenedor_resultados");
 let noResultados = document.querySelector(".no_hay_resultados");
 
-titulo.innerText = `${termino}`;
+titulo.innerText = `Resultados de busqueda para: ${termino}`;
 let url = "https://dummyjson.com/products/search?q=" + termino 
 fetch(url) 
     .then(function(response) {
