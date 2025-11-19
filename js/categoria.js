@@ -1,3 +1,4 @@
+// codigo sidebar dinamico
 let url2 = "https://dummyjson.com/products/category-list"
 fetch(url2)
     .then(function(response) {
@@ -26,7 +27,7 @@ fetch(url2)
 let queryString = location.search;
 let parametros = new URLSearchParams(queryString);
 let categoria = parametros.get("category"); 
-let titulo = document.querySelector("h2");
+let titulo = document.querySelector(".titulo_categoria");
 titulo.textContent = "Categoria | " + categoria; 
 let url = "https://dummyjson.com/products/category/" + categoria;
 
@@ -53,3 +54,18 @@ fetch(url)
         console.log ("Error:" + error);
     });
 
+// codigo barra busqueda
+let formulario = document.querySelector(".barra_busqueda");
+let inputBusqueda = document.querySelector("#busqueda");
+formulario.addEventListener("submit", function(event){
+    event.preventDefault();
+    if (inputBusqueda.value == "") {
+        alert("El campo de busqueda no puede estar vacio")
+    } 
+    if (inputBusqueda.value.length < 3) {
+         alert("La busqueda debe tener al menos 3 caracteres")
+    }
+    else {
+         this.submit()
+    } 
+})
