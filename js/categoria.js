@@ -50,7 +50,7 @@ fetch(url)
         }
         info.innerHTML = productos;
     })
-    .catch (function(erorr) {
+    .catch (function(error) { 
         console.log ("Error:" + error);
     });
 
