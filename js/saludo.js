@@ -1,17 +1,10 @@
+// saludo al email registrado
 let email_valido = localStorage.getItem("email");
-let nav = document.querySelector(".header_nav");
-let login_and_register = document.querySelectorAll(".login_register");
-
+let navlogout2 = document.querySelector(".logout1");
+let login_and_register = document.querySelector(".header_nav");
 
 if (email_valido) {
-    nav.innerHTML =
-        `
-        <h3 class= "usuario saludo"> ¡Bienvenido/a: ${email_valido}!</h3>
-        <nav class="header_nav navlogout">
-            <ul>
-                <li><a href="./index.html" class="login_register" >Home </a></li>
-                <li><a class="login_register"> Logout</a></li>
-            </ul>
-        </nav>`
-
+    navlogout2.style.display = "flex";    
+    navlogout2.innerHTML+=`<h3 class= "saludo"> ¡Bienvenido/a: ${email_valido}</h3>`;
+    login_and_register.style.display="none";
 }

@@ -1,3 +1,4 @@
+// Sección 1
 let url = "https://dummyjson.com/products/category/groceries?limit=10"
 fetch(url)
     .then(function (res) {
@@ -26,6 +27,7 @@ fetch(url)
         console.log("Error:" + error);
     })
 
+// Sección 2
 let url_accesorios = "https://dummyjson.com/products/category/kitchen-accessories?limit=10"
 fetch(url_accesorios)
     .then(function (res) {

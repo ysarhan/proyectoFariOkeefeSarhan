@@ -23,7 +23,7 @@ fetch(url2)
         console.log("Error cargando categorias: " + error);
     })
 
-
+// código de categoria
 let queryString = location.search;
 let parametros = new URLSearchParams(queryString);
 let categoria = parametros.get("category"); 

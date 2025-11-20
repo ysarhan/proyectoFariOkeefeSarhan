@@ -34,8 +34,7 @@ formulario.addEventListener("submit", function(event){
     } 
     if (inputBusqueda.value.length < 3) {
          alert("La busqueda debe tener al menos 3 caracteres")
-    }
-    else {
+    }else {
          this.submit()
     } 
 })
