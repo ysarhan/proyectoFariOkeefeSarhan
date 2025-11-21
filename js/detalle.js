@@ -11,44 +11,44 @@ fetch(url)
 
 .then(function(data){
 
-            let contenedor = document.querySelector(".section1_producto");
-            let contenedor2=document.querySelector(".section2_producto");
-            contenedor.innerHTML=` <img src="${data.thumbnail}" class="marcadores_img">`
-            contenedor2.innerHTML = `
-           <div class="texto_producto">
-                <h1 class="product_h1">${data.title}</h1>
-                <h2 class="product_h2">Marca: ${data.brand}</h2>
-                <p class="product_h3">Precio: ${data.price}</p>
-                <p class="description">${data.description}</p>
+    let contenedor = document.querySelector(".section1_producto");
+    let contenedor2=document.querySelector(".section2_producto");
+    contenedor.innerHTML=` <img src="${data.thumbnail}" class="marcadores_img">`
+    contenedor2.innerHTML = `
+    <div class="texto_producto">
+        <h1 class="product_h1">${data.title}</h1>
+        <h2 class="product_h2">Marca: ${data.brand}</h2>
+        <p class="product_h3">Precio: ${data.price}</p>
+        <p class="description">${data.description}</p>
 
-                <p class="categoria">
-                Categoría: 
-                <a href="./categoria.html?category=${data.category}">
-                    ${data.category}
-                </a>
-                </p>
+        <p class="categoria">
+        Categoría: 
+        <a href="./categoria.html?category=${data.category}">
+            ${data.category}
+        </a>
+        </p>
 
-                <p class="unidades">Stock: ${data.stock}</p>
-            </div>
-                
-                `
-            let contenedor3= document.querySelector(".section_reviews")
-            let cont="";
+        <p class="unidades">Stock: ${data.stock}</p>
+    </div>
+        
+        `
+    let contenedor3= document.querySelector(".section_reviews")
+    let cont="";
 
-            for (let i= 0; i < data.reviews.length; i++) {
-                            cont+=`
-                            <div class="review">
-                                <h4 class="rating">Rating: ${data.reviews[i].rating}</h4>
-                                <p class="review_texto">${data.reviews[i].comment}</p>
-                                <div class="datos_review">
-                                    <p class="nombre_review">Usuario: ${data.reviews[i].reviewerName}</p>
-                                    <p class="nombre_review">Email:${data.reviews[i].reviewerEmail}</p>
-                                    <p class="fecha">Fecha: ${data.reviews[i].date}</p>
-                                </div>
-                            </div>
-            `};
+    for (let i= 0; i < data.reviews.length; i++) {
+                    cont+=`
+                    <div class="review">
+                        <h4 class="rating">Rating: ${data.reviews[i].rating}</h4>
+                        <p class="review_texto">${data.reviews[i].comment}</p>
+                        <div class="datos_review">
+                            <p class="nombre_review">Usuario: ${data.reviews[i].reviewerName}</p>
+                            <p class="nombre_review">Email:${data.reviews[i].reviewerEmail}</p>
+                            <p class="fecha">Fecha: ${data.reviews[i].date}</p>
+                        </div>
+                    </div>
+    `};
 
-            contenedor3.innerHTML = cont;
+    contenedor3.innerHTML = cont;
             
 })
             
