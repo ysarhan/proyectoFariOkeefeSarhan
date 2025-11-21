@@ -364,13 +364,27 @@ h2 {
 }
 
 
+.texto_producto {
+    background-color: rgba(240, 248, 255, 0.582);
+    margin-right: 30px;
+    border-radius: 30px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+
 .section1_producto {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
 }
 
-
+.marcadores_img{
+    background-color: rgba(240, 248, 255, 0.582);
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 30px;
+}
 
 
 .section2_producto{
@@ -435,6 +449,13 @@ h2 {
 .review {
     margin-top: 5px;
     margin-bottom: 10px;
+    background-color: rgba(104, 89, 77, 0.511);
+    margin-right: 30px;
+    border-radius: 30px;
+    padding: 30px;
+}
+.section_reviews{
+    margin-top: 30px;
 }
 
 .rating {
