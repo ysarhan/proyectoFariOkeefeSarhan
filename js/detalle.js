@@ -23,7 +23,7 @@ fetch(url)
 
                 <p class="categoria">
                 Categoría: 
-                <a href="./categoria.html?cat=${data.category}">
+                <a href="./categoria.html?category=${data.category}">
                     ${data.category}
                 </a>
                 </p>
