@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
     <link rel="stylesheet" href="./css/styles.css">
 </head>
+
 <body>
     <header class="header">
         <nav class="header_nav">
@@ -16,64 +18,65 @@
         </nav>
 
         <nav class="logout1">
-                <ul>
-                    <li><a href="./index.html" class="login_register" >Home </a></li>
-                    <li><a href="" class= "boton_logout23"> Logout</a></li>
-                </ul>
+            <ul>
+                <li><a href="./index.html" class="login_register">Home </a></li>
+                <li><a href="" class="boton_logout23"> Logout</a></li>
+            </ul>
         </nav>
         <form class="barra_busqueda" action="./busqueda.html" method="get">
             <div>
                 <label for="busqueda">Busqueda: </label>
-                <input id="busqueda"  type="text" name="search" value="">
+                <input id="busqueda" type="text" name="search" value="">
             </div>
             <div>
                 <button type="submit">Buscar</button>
             </div>
         </form>
-        <a class="logo" href="./index.html"> <img src="./img/logo.png" alt="logo" class="logo" ></a>
+        <a class="logo" href="./index.html"> <img src="./img/logo.png" alt="logo" class="logo"></a>
     </header>
 
     <!-- Hay que revisar identación -->
-   <main class="register_main">
-    <section class="register_section">
-    <form action="./login.html" method="get">
-        <h2 class="registrate">Registrate</h2>
-        <div class="usuario">
-            <label for="user">Usuario</label>
-            <input id="user" type="text" name="user" value="" required>
-        </div>
-        <div class="usuario">
-            <label for="mail">Email</label>
-            <input id="mail" type="email" name="mail" value="" required>
-        </div>
-        <div class="usuario">
-            <label for="pass">Contraseña</label>
-            <input id="pass" type="password" name="pass" value="" required>
-        </div>
-            <div class="usuario">
-            <label for="pass2">Repetir contraseña</label>
-            <input id="pass2" type="password" name="pass2" value="" required>
-        </div>
-    <div class="terms">
-        <label for="terms">Acepto los terminos y condiciones</label>
-        <input type="checkbox" name="terms" value="yes" required>
-    </div>
+    <main class="register_main">
+        <section class="register_section">
+            <form action="./login.html" method="get">
+                <h2 class="registrate">Registrate</h2>
+                <div class="usuario">
+                    <label for="user">Usuario</label>
+                    <input id="user" type="text" name="user" value="" required>
+                </div>
+                <div class="usuario">
+                    <label for="mail">Email</label>
+                    <input id="mail" type="email" name="mail" value="" required>
+                </div>
+                <div class="usuario">
+                    <label for="pass">Contraseña</label>
+                    <input id="pass" type="password" name="pass" value="" required>
+                </div>
+                <div class="usuario">
+                    <label for="pass2">Repetir contraseña</label>
+                    <input id="pass2" type="password" name="pass2" value="" required>
+                </div>
+                <div class="terms">
+                    <label for="terms">Acepto los terminos y condiciones</label>
+                    <input type="checkbox" name="terms" value="yes" required>
+                </div>
 
-    <div class="button">
-        <button type="submit">Registrarme</button>
-    </div>
-</form>
+                <div class="button">
+                    <button type="submit">Registrarme</button>
+                </div>
+            </form>
 
-<a href="./login.html" class="notengocuenta">Ya tengo cuenta</a>
-</section>
-</main>
+            <a href="./login.html" class="notengocuenta">Ya tengo cuenta</a>
+        </section>
+    </main>
 
-<footer>
-    <h3>Yamile Sarhan</h3>
-    <h3>Abril Farinaccia</h3>
-    <h3>Lucas O'keefe</h3>
-</footer>
-<script src="./js/register.js"></script>
-<script src="./js/saludo.js"></script>
+    <footer>
+        <h3>Yamile Sarhan</h3>
+        <h3>Abril Farinaccia</h3>
+        <h3>Lucas O'keefe</h3>
+    </footer>
+    <script src="./js/register.js"></script>
+    <script src="./js/saludo.js"></script>
 </body>
+
 </html>
