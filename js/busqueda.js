@@ -32,7 +32,7 @@ formulario.addEventListener("submit", function(event){
     if (inputBusqueda.value == "") {
         alert("El campo de busqueda no puede estar vacio")
     } 
-    if (inputBusqueda.value.length < 3) {
+    else if (inputBusqueda.value.length < 3) {
          alert("La busqueda debe tener al menos 3 caracteres")
     }else {
          this.submit()
@@ -64,7 +64,7 @@ fetch(url)
             for (let i = 0; i < results.length; i++) {
                 html += ` 
                     <article class="imagen">
-                        <img src="${results[i].images[0]}">
+                        <img class="img2" src="${results[i].images[0]}">
                         <p>${results[i].title}</p>
                         <a href="./product.html?id=${results[i].id}" class="ver_detalle">Ver detalle</a>
                     </article>
